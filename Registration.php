@@ -29,10 +29,10 @@
                 <div class="panel-heading" style="background-color: #999999">
                     <div class="row">
                         <div class="col-xs-6">
-                            <a href="#" id="login-form-link">Login</a>
+                            <a href="#login-form" id="login-form-link">Login</a>
                         </div>
                         <div class="col-xs-6">
-                            <a href="#" class="active" id="register-form-link">Register</a>
+                            <a href="#register-form" class="active" id="register-form-link">Register</a>
                         </div>
                     </div>
                     <hr>
@@ -43,11 +43,11 @@
                             <form id="login-form" action="Registration.php" method="post" style="display: none;">
                                 <?php include('errors.php'); ?>
                                 <div class="form-group">
-                                    <input type="text" name="username" tabindex="1" class="form-control"
+                                    <input id="user" type="text" name="username" tabindex="1" class="form-control"
                                            placeholder="Username" value="" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="password" tabindex="2" class="form-control"
+                                    <input id="pass" type="password" name="password" tabindex="2" class="form-control"
                                            placeholder="Password" required>
                                 </div>
                                 <div class="form-group text-center">

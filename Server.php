@@ -355,13 +355,13 @@ if(isset($_POST['book'])){
     echo "<script>alert('$date');</script>";
     $time = mysqli_real_escape_string($conn, $_POST['time']);
     $msg = mysqli_real_escape_string($conn, $_POST['message']);
-    $username = $_SESSION['username'];
+    $id = $_SESSION['restaurant'];
     $query = "SELECT * FROM restaurants WHERE Accounts_Username='$username' LIMIT 1";
     // echo $query;
 
     $results = mysqli_query($conn, $query);
     $restaurant = mysqli_fetch_assoc($results);
-    $id = $restaurant['RestaurantID'];
+    //$id = $restaurant['RestaurantID'];
 
 
     if (count($errors) == 0) {
@@ -373,4 +373,4 @@ if(isset($_POST['book'])){
     }
 }
 
-?>
+?>s

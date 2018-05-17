@@ -64,14 +64,14 @@
                     </div>
                     <div class="media-body">
                         <?php
-                        $username = $_SESSION['username'];
+                        $username = $_SESSION['restaurant'];
                         $query = "SELECT * FROM restaurants WHERE Accounts_Username='$username' LIMIT 1";
-                        // echo $query;
+                        //echo $query;
 
                         $results = mysqli_query($conn, $query);
                         $restaurant = mysqli_fetch_assoc($results);
                         $id = $restaurant['RestaurantID'];
-                        $query = "SELECT * from restaurants where RestaurantID=$id";
+                        $query = "SELECT * from restaurants where RestaurantID=$username";
                         $result = mysqli_query($conn, $query);
                         if (true) {
                             while ($row = mysqli_fetch_row($result)) {
