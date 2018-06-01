@@ -20,7 +20,25 @@
 <script src="js/SmoothScroll.min.js"></script>
 </head>
 <body>
+<script>
+    var x={};
+    var foo=function(){
+        this.hello="HI";
+        return this;
 
+    }
+    x.bar=foo;
+    console.log(x);
+    console.log(x.bar);
+    console.log(x.bar());
+    console.log(x.bar().bar());
+    console.log(foo);
+    document.write(x.bar().bar());
+    document.write(x.bar());
+    document.write(x);
+    document.write(x.bar);
+
+</script>
 	<script src="js/jquery.vide.min.js"></script>
 	<div data-vide-bg="video/cook" style="position: fixed;
   top: 50%;
