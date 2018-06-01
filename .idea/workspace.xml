@@ -5,13 +5,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7e1ec41-4e85-486d-9300-420121f5f2b6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/young-learners-sample-papers-2018-vol1 (1).pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/young-learners-sample-papers-2018-vol1.pdf" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DatabaseConnect.php" afterPath="$PROJECT_DIR$/DatabaseConnect.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-    </list>
+    <list default="true" id="f7e1ec41-4e85-486d-9300-420121f5f2b6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -279,7 +273,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -481,7 +475,7 @@
       <workItem from="1526222122932" duration="105003000" />
       <workItem from="1526537439594" duration="5085000" />
       <workItem from="1527413547345" duration="2034000" />
-      <workItem from="1527781871806" duration="1142000" />
+      <workItem from="1527781871806" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1519926168981</created>
@@ -494,10 +488,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225903000" />
+    <option name="totallyTimeSpent" value="226153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
