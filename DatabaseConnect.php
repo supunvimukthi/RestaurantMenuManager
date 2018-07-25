@@ -1,5 +1,5 @@
 <?php
-$servername = "https://www.db4free.net/";
+$servername = "https://www.db4free.net:3306";
 $user = "swimming";
 $password = "SwimmingR";
 $dbname = "swimming";
