@@ -1,8 +1,8 @@
 <?php
-$servername = "db4free.net:3306";
-$user = "swimming";
-$password = "SwimmingR";
-$dbname = "swimming";
+$servername = "sql12.freemysqlhosting.net";
+$user = "sql12249221";
+$password = "jal2nkFLWa";
+$dbname = "sql12249221";
 
 // Create connection
 $conn = new mysqli($servername, $user, $password, $dbname);
